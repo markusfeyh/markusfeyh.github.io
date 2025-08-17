@@ -1,0 +1,43 @@
+title: Markus Feyh
+email: 
+description: >- 
+  Software and Finance
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://markusfeyh.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username: markusfeyh
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Markus Feyh"
+      comments: false
+      share: false
+
+# Show excerpts on home page
+show_excerpts: true 
