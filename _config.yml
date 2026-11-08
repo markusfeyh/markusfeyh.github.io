@@ -40,4 +40,11 @@ defaults:
       share: false
 
 # Show excerpts on home page
-show_excerpts: true 
+show_excerpts: true
+
+# minima 2.5.x still uses Sass @import and global color functions, which Dart Sass
+# (used by Jekyll 4.3+) deprecates. Keep the build log clean by silencing warnings
+# that come from the theme's stylesheets.
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]

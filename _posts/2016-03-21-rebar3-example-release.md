@@ -10,7 +10,7 @@ tags: [erlang, rebar3, build-tools, dependency-management, releases]
 Using rebar3 is now the industry standard for building and dependency management when programming Erlang. This comes as a result of rebar3 becoming an official part of the Erlang Github repo and being packaged with Erlang distributions.
 
 I have an example project here where I have been playing around with rebar3:   
-[https://github.com/sqoring/rebar3_example](https://github.com/sqoring/rebar3_example)
+[https://github.com/markusfeyh/rebar3_example](https://github.com/markusfeyh/rebar3_example)
 
 My goals in using rebar3 are:   
 1. managing dependencies of the project   

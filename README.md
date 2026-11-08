@@ -101,7 +101,7 @@ Page content here...
 
 ### Prerequisites
 
-- Ruby 2.7 or higher (recommended: Ruby 3.1+)
+- Ruby 3.4 or newer (CI uses Ruby 4.0)
 - Bundler gem
 
 ### Setup
@@ -122,9 +122,9 @@ Page content here...
 
 ## Deployment
 
-The site automatically deploys when you push to the `main` branch. The GitHub Actions workflow:
+The site automatically deploys when you push to the `main` branch (pull requests are built but not deployed). The GitHub Actions workflow:
 
-1. Sets up a Ruby 3.1 environment
+1. Sets up a Ruby 4.0 environment
 2. Installs all dependencies
 3. Builds the Jekyll site
 4. Deploys to GitHub Pages
